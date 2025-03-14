@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #005fa3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Job Cards */
+.job-card {
+    background: white;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.job-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.job-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.apply-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.apply-btn:hover {
+    background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
